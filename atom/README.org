@@ -1,7 +1,15 @@
 #+TITLE: atom layer
 
 * Table of Contents                                        :TOC_4_org:noexport:
+ - [[Install][Install]]
  - [[Key bindings][Key bindings]]
+
+* Install
+ To use this contribution add it to your =~/.spacemacs=
+
+ #+begin_src emacs-lisp
+   (setq-default dotspacemacs-configuration-layers '(atom))
+ #+end_src
 
 * Key bindings
 
