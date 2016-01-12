@@ -13,7 +13,10 @@
   (use-package org-cliplink :defer t))
 
 (defun personal/init-org-journal ()
-  (use-package org-journal :defer t))
+  (use-package org-journal
+    :defer t
+    :init
+    (setq-default org-journal-file-format "%Y%m%d.org")))
 
 (defun personal/init-w3m ()
   (use-package w3m :defer t))
