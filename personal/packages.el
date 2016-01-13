@@ -16,6 +16,7 @@
   (use-package org-journal
     :defer t
     :init
+    (setq-default org-journal-date-format "%A, %d/%m/%Y")
     (setq-default org-journal-file-format "%Y%m%d.org")))
 
 (defun personal/init-w3m ()
